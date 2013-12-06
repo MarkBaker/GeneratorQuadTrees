@@ -3,6 +3,9 @@ QuadTrees
 
 A PHP implementation of the Point QuadTree data structure
 
+This uses a Generator for the search() method, returning a single result for each "iteration" or call to current(), so it requires PHP >= 5.5. The main purpose of this implementation is to show an example of a genuine use case for recursive generators.
+
+
 The /examples folder contains a couple of examples to demonstrate its use:
 
  - citySearch.php
